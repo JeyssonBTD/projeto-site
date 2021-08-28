@@ -6,19 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/template.css">
     <script type="text/javascript">
-        Window.onload = function(){
-           Document.querySelector(".menu_mobile").addEventListener("click",function(){
-               if( Document.querySelector(".menu nav ul").style.display == 'flex'){
-                Document.querySelector(".menu nav ul").style.display = 'none';
-               }
-               
-               else {
-                Document.querySelector(".menu nav ul").style.display == 'flex';
-               }
-           })
-    
-        }
-        </script>
+    window.onload = function(){
+        document.querySelector(".menu_mobile").addEventListener("click", function(){
+            if( document.querySelector(".menu nav ul").style.display == 'flex') {
+                document.querySelector(".menu nav ul").style.display = 'none';
+            }
+            else {
+                document.querySelector(".menu nav ul").style.display = 'flex';
+            }
+        });
+
+    };
+    </script>
     <title>Document</title>
     
     
